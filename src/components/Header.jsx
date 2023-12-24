@@ -1,11 +1,12 @@
 import Button from "./Button";
 import "./Header.css";
 import Img from "./Img";
+import { RiGraduationCapLine } from "react-icons/ri";
 
 const Header = () => {
   return (
     <>
-      <div className="header">
+      <div className="header ">
         <svg
           width="1240"
           height="380"
@@ -22,7 +23,7 @@ const Header = () => {
             fill="#C26DFF"
           />
         </svg>
-        <div className="z-10 flex justify-between">
+        <div className="z-10 flex justify-between ">
           <svg
             className="absolute inset-0 top-[327px] -left-14"
             width="199"
@@ -37,7 +38,7 @@ const Header = () => {
             />
           </svg>
 
-          <div className="header-left">
+          <div className="header-left ml-10">
             <svg
               width="12"
               height="115"
@@ -68,9 +69,29 @@ const Header = () => {
               <Button />
             </div>
           </div>
-          <div className="header-right">
+          <div className="header-right flex">
+            <div className="absolute top-[200px] z-10 right-[180px] bg-[#1d1d1d] rounded-[2rem] flex items-center gap-[5px] p-3">
+              <div>
+                <h1 className="text-white text-3xl">+3</h1>
+              </div>
+              <div className="leading-3">
+                <h1 className="text-white">Anos</h1>
+                <p className="text-white text-sm text-light">de experiencia</p>
+              </div>
+            </div>
+            <div className="absolute top-[270px] z-10 right-[180px] bg-[#1d1d1d] rounded-[2rem] flex items-center gap-[5px] p-3">
+              <div>
+                <RiGraduationCapLine size={24} color="#fff" />
+              </div>
+              <div className="leading-3">
+                <h1 className="text-white">Graduada</h1>
+                <p className="text-white text-sm text-light">
+                  em Design Gráfico
+                </p>
+              </div>
+            </div>
             <svg
-              className="absolute z-20 top-[55px] right-[125px]"
+              className="absolute z-20 top-[55px] right-[290px]"
               width="67"
               height="67"
               viewBox="0 0 67 67"
@@ -86,7 +107,7 @@ const Header = () => {
               width="55"
               height="55"
               viewBox="0 0 67 67"
-              className="absolute z-10 top-[20px] right-[90px]"
+              className="absolute z-10 top-[20px] right-[250px]"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -95,7 +116,20 @@ const Header = () => {
                 fill="white"
               />
             </svg>
-            <Img className={"top-[53px] right-[170px]"} />
+            <svg
+              className="absolute top-[140px] right-[310px]"
+              width="390"
+              height="300"
+              viewBox="0 0 354 199"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M208.799 187.266C189.64 176.94 162.562 176.63 143.165 186.506C129.767 193.328 114.601 197.175 98.536 197.175C44.1163 197.175 0 153.035 0 98.5873C0 44.1382 44.1163 0 98.536 0C115.419 0 131.31 4.24831 145.201 11.7347C164.36 22.0609 191.438 22.3703 210.833 12.4942C224.233 5.67191 239.399 1.82572 255.464 1.82572C309.884 1.82572 354 45.9649 354 100.413C354 154.862 309.884 199 255.464 199C238.581 199 222.69 194.752 208.799 187.266Z"
+                fill="#F5F5F5"
+              />
+            </svg>
+            <Img className={"top-[53px] right-[350px]"} />
             <svg
               width="13"
               height="115"
@@ -112,8 +146,6 @@ const Header = () => {
                 stroke-linecap="round"
               />
             </svg>
-
-            <h1>oi eu sou geovana só ENDEOTA</h1>
           </div>
         </div>
       </div>
