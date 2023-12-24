@@ -12,7 +12,7 @@ export default function () {
         </p>
         <div className="border-lightPurple border-b mt-8 w-80"></div>
       </div>
-      <div className="grid grid-cols-5">
+      <div className="grid grid-cols-5 mb-20">
         <Card />
         <Card />
         <Card />
