@@ -1,17 +1,10 @@
 import React from "react";
 import Card from "../Card";
-
+import SeactionHeader from "../SectionHeader";
 export default function () {
   return (
     <div className="max-w-screen-xl mx-auto p-4 ">
-      <div className="flex flex-col justify-center items-center m-8 ">
-        <span className="text-purple text-2xl">Serviços</span>
-        <h1 className="text-4xl uppercase">serviços especializados</h1>
-        <p className="text-black text-base">
-          Projetos feito sob encomenda e com prazo de entrega de até um mês.
-        </p>
-        <div className="border-lightPurple border-b mt-8 w-80"></div>
-      </div>
+      <SeactionHeader />
       <div className="grid grid-cols-5 mb-20">
         <Card />
         <Card />
