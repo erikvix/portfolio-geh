@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Section from "./components/Section/Section";
 import SobreMim from "./components/SobreMim";
 import Processo from "./components/Processo";
+import Feedback from "./components/Feedback";
+
 function App() {
   return (
     <div className="">
@@ -11,6 +13,7 @@ function App() {
       <Section />
       <SobreMim />
       <Processo />
+      <Feedback />
     </div>
   );
 }
