@@ -5,6 +5,7 @@ import Section from "./components/Section/Section";
 import SobreMim from "./components/SobreMim";
 import Processo from "./components/Processo";
 import Feedback from "./components/Feedback";
+import Projetos from "./components/Projetos"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SobreMim />
       <Processo />
       <Feedback />
+      <Projetos/>
     </div>
   );
 }
