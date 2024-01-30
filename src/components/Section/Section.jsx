@@ -3,16 +3,16 @@ import Card from "../Card";
 import SeactionHeader from "../SectionHeader";
 export default function () {
   return (
-    <div className="max-w-screen-xl mx-auto p-4 ">
+    <div className="max-w-screen-xl mx-auto p-4">
       <SeactionHeader />
-      <div className="grid grid-cols-5 mb-20">
+      <div className="grid grid-cols-5 mb-20 relative">
         <Card />
         <Card />
         <Card />
         <Card />
         <Card />
         <svg
-          className="absolute bottom-24 left-16"
+          className="absolute z-0 bottom-40 -left-20"
           width="112"
           height="118"
           viewBox="0 0 112 118"
@@ -27,7 +27,7 @@ export default function () {
           />
         </svg>
         <svg
-          className="absolute -bottom-[110px] z-0 right-32"
+          className="absolute -bottom-[29px] z-0 -right-2"
           width="124"
           height="123"
           viewBox="0 0 124 123"

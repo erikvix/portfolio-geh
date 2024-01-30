@@ -27,7 +27,7 @@ export default function Card({ altCard = false }) {
           <FaStar size={24} color="#fbbf24" />
         </div>
         <div className="flex flex-col justify-center items-center gap-4">
-          <p className="text-blackc border border-cyan-400 text-sm">
+          <p className="text-blackc text-sm">
             A Gegeh entendeu super bem e fez tudo do jeitinho que eu estava
             imaginando, até superando minhas expectativas, sendo necessário
             poucas mudanças e tudo foi feito em um tempo extremamente curto. Com
