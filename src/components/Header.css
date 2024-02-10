@@ -1,11 +1,11 @@
 .header {
-  background-color: #b349ff;
-  /* height: 23.5rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10rem;
   padding: 5rem 8rem;
+  background: #C26DFF url(../assets/Transparency.svg) no-repeat center center;
+  background-size: cover;
 }
 .header-left {
   max-width: 58ch;
