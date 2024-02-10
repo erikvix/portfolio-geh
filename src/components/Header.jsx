@@ -1,6 +1,6 @@
 import Button from "./Button";
 import "./Header.css";
-import Img from "./Img";
+// import Img from "./Img";
 import { RiGraduationCapLine } from "react-icons/ri";
 
 const Header = () => {
@@ -17,8 +17,8 @@ const Header = () => {
         >
           <path
             opacity="0.15"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M1024.28 0H959.716L1240 85.8939V66.107L1024.28 0ZM1240 18.3383L1180.16 0H1240V18.3383ZM1240 133.662L803.834 0H739.271L1240 153.449V133.662ZM1240 201.218L583.39 0H518.827L1240 221.005V201.218ZM1240 268.773L362.945 0H298.38L1240 288.56V268.773ZM1240 336.329L142.503 0H77.9359L1240 356.116V336.329ZM1162.06 380L0 23.8848V43.6716L1097.49 380H1162.06ZM941.612 380L0 91.4403V111.227L877.049 380H941.612ZM721.167 380L0 158.995V178.782L656.605 380H721.167ZM500.723 380L0 226.551V246.338L436.16 380H500.723ZM280.281 380L0 294.106V313.894L215.714 380H280.281ZM59.8363 380L0 361.662V380H59.8363Z"
             fill="#C26DFF"
           />
@@ -50,9 +50,9 @@ const Header = () => {
               <path
                 d="M10 2C10 7.55195 2 7.55195 2 13.1039C2 18.6559 10 18.6559 10 24.2078C10 29.7598 2 29.7598 2 35.2987C2 40.8508 10 40.8508 10 46.3896C10 51.9417 2 51.9417 2 57.4805C2 63.0325 10 63.0325 10 68.5842C10 74.1363 2 74.1363 2 79.6884C2 85.24 10 85.24 10 90.7921C10 96.3442 2 96.3442 2 101.896C2 107.448 10 107.448 10 113"
                 stroke="#F5F5F5"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
               />
             </svg>
             <h3 className="title">
@@ -130,7 +130,7 @@ const Header = () => {
                   fill="#F5F5F5"
                 />
               </svg>
-              <Img className={"top-[53px] right-[350px]"} />
+              <img src="" alt="" />
               <svg
                 width="13"
                 height="115"
@@ -142,9 +142,9 @@ const Header = () => {
                 <path
                   d="M10 2C10 7.55195 2 7.55195 2 13.1039C2 18.6559 10 18.6559 10 24.2078C10 29.7598 2 29.7598 2 35.2987C2 40.8508 10 40.8508 10 46.3896C10 51.9417 2 51.9417 2 57.4805C2 63.0325 10 63.0325 10 68.5842C10 74.1363 2 74.1363 2 79.6884C2 85.24 10 85.24 10 90.7921C10 96.3442 2 96.3442 2 101.896C2 107.448 10 107.448 10 113"
                   stroke="#F5F5F5"
-                  stroke-width="3"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
+                  strokeWidth="3"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
                 />
               </svg>
             </div>

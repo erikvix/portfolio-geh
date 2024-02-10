@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+
+.bg-sobre{
+  background: url('./assets/fundoSobre.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
