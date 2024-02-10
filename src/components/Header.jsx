@@ -1,6 +1,6 @@
 import Button from "./Button";
 import "./Header.css";
-import Img from "./Img";
+// import Img from "./Img";
 import { RiGraduationCapLine } from "react-icons/ri";
 
 const Header = () => {
@@ -33,9 +33,9 @@ const Header = () => {
               <path
                 d="M10 2C10 7.55195 2 7.55195 2 13.1039C2 18.6559 10 18.6559 10 24.2078C10 29.7598 2 29.7598 2 35.2987C2 40.8508 10 40.8508 10 46.3896C10 51.9417 2 51.9417 2 57.4805C2 63.0325 10 63.0325 10 68.5842C10 74.1363 2 74.1363 2 79.6884C2 85.24 10 85.24 10 90.7921C10 96.3442 2 96.3442 2 101.896C2 107.448 10 107.448 10 113"
                 stroke="#F5F5F5"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
               />
             </svg>
             <h3 className="title">
@@ -113,7 +113,7 @@ const Header = () => {
                   fill="#F5F5F5"
                 />
               </svg>
-              <Img className={"top-[53px] right-[350px]"} />
+              <img src="" alt="" />
               <svg
                 width="13"
                 height="115"
@@ -125,9 +125,9 @@ const Header = () => {
                 <path
                   d="M10 2C10 7.55195 2 7.55195 2 13.1039C2 18.6559 10 18.6559 10 24.2078C10 29.7598 2 29.7598 2 35.2987C2 40.8508 10 40.8508 10 46.3896C10 51.9417 2 51.9417 2 57.4805C2 63.0325 10 63.0325 10 68.5842C10 74.1363 2 74.1363 2 79.6884C2 85.24 10 85.24 10 90.7921C10 96.3442 2 96.3442 2 101.896C2 107.448 10 107.448 10 113"
                   stroke="#F5F5F5"
-                  stroke-width="3"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
+                  strokeWidth="3"
+                  strokeMiterlimit="10"
+                  strokeLinecap="round"
                 />
               </svg>
             </div>
