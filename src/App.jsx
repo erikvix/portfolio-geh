@@ -6,6 +6,7 @@ import SobreMim from "./components/SobreMim";
 import Processo from "./components/Processo";
 import Feedback from "./components/Feedback";
 import Projetos from "./components/Projetos"
+import Footer from  "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Processo />
       <Feedback />
       <Projetos/>
+      <Footer/>
     </div>
   );
 }

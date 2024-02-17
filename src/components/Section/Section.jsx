@@ -1,4 +1,4 @@
-import React from "react";
+
 import Card from "../Card";
 import SeactionHeader from "../SectionHeader";
 
@@ -6,12 +6,12 @@ export default function Section () {
   return (
     <div className="max-w-screen-xl mx-auto p-4">
       <SeactionHeader />
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 mb-20 relative">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mb-20 relative">
+        <Card className='mx-auto last:col-span-2' />
+        <Card className='mx-auto last:col-span-2' />
+        <Card className='mx-auto last:col-span-2' />
+        <Card className='mx-auto last:col-span-2' />
+        <Card className='mx-auto last:col-span-2' />
         <svg
           className="absolute z-0 bottom-40 -left-20"
           width="112"
